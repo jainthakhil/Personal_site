@@ -485,6 +485,13 @@ textarea {
   }
 }
 @media screen and (max-width: 768px) {
+  #header{
+    background-image: url(https://www.freepik.com/free-photo/gradient-blue-abstract-background-smooth-dark-blue-with-black-vignette-studio_18221883.htm#page=5&query=gradient%20background&position=43&from_view=search&track=ais);
+    background-size: cover;
+    background-position: centre;
+    
+  }
+  
   .container {
     flex-direction: column;
     margin-top: 20px;
