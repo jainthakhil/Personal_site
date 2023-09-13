@@ -13,7 +13,7 @@ body {
   min-width: 350px;
   max-height: auto;
   min-height: 100vh;
-  background-image: url(https://img.freepik.com/free-vector/gradient-green-tones-background_23-2148365957.jpg?w=826&t=st=1694547362~exp=1694547962~hmac=b065693cc0f843c429655329d7f280b98a076a612333890159305adb46672c34);
+  background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2430.jpg?w=826&t=st=1694623190~exp=1694623790~hmac=1daf1f25dcbcfa48059bd19b66a6d622bdada42af4d02da8a411f8dc4a27bd16);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -87,13 +87,13 @@ nav ul a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   border-radius: 5px;
   color: #ea1179;
 }
 nav ul li a i {
-  font-size: 25px;
+  font-size: 20px;
 }
 nav .active {
   background-color: #ea1179;
@@ -485,13 +485,9 @@ textarea {
   }
 }
 @media screen and (max-width: 768px) {
-  #header{
-    background-image: url(https://img.freepik.com/free-vector/pastel-gradient-blur-vector-colorful-background_53876-175707.jpg?w=2000&t=st=1694558410~exp=1694559010~hmac=c3da4a7c2f95553f122d450670d4a77dd7b04afa84da1f31e31f19c8c54eb5a7 );
-    background-size: cover;
-    background-position: centre;
-    
+  #header {
+    background-image: url(https://img.freepik.com/free-vector/instagram-background-gradient-colors_23-2147821882.jpg?w=740&t=st=1694623243~exp=1694623843~hmac=17af291997fa6b72eb0b7df9a7f11c60d38761195e1a95b22586d62b4ae68c99);
   }
-  
   .container {
     flex-direction: column;
     margin-top: 20px;
