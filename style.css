@@ -13,7 +13,7 @@ body {
   min-width: 350px;
   max-height: auto;
   min-height: 100vh;
-  background-image: url(https://img.freepik.com/free-vector/gradient-background-green-tones_23-2148373477.jpg?w=826&t=st=1694625123~exp=1694625723~hmac=6c83e706b72d270b98922c90226809ca52c1de0df1c7c2262bae2e3b57bc749d);
+  background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2430.jpg?w=826&t=st=1694623190~exp=1694623790~hmac=1daf1f25dcbcfa48059bd19b66a6d622bdada42af4d02da8a411f8dc4a27bd16);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -71,8 +71,8 @@ li {
   list-style: none;
 }
 nav ul li {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -287,8 +287,15 @@ button i {
   border-radius: 10px;
   padding: 20px;
   max-height: 250px;
+  transition: background 0.3s ease;
 }
-
+.grid-container div:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3)
+  );
+}
 #about ul li,
 h2 {
   margin: 10px;
@@ -486,7 +493,7 @@ textarea {
 }
 @media screen and (max-width: 768px) {
   #header {
-    background-image: url(https://img.freepik.com/free-photo/abstract-blur-empty-green-gradient-studio-well-use-as-background-website-template-frame-business-report_1258-67017.jpg?w=360&t=st=1694625192~exp=1694625792~hmac=87cd122e14bc071b399635ba93c0a0b5f9a6266777934828a40c01afe7daed00);
+    background-image: url(https://img.freepik.com/free-photo/background-gradient-lights_23-2149304979.jpg?w=360&t=st=1694623819~exp=1694624419~hmac=dc40b51b467015b8046571ed469c10671aa9ca1481cdbfb46e124f81fb1e4d4e);
   }
   .container {
     flex-direction: column;
