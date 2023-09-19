@@ -26,20 +26,9 @@ navlinks.forEach((link, index) => {
 
 //sent button
 const sentBtn = document.querySelector(".sentBtn");
-const message = document.querySelector(".message");
 sentBtn.addEventListener("click", function () {
-  if (message.innerHTML.trim() !== "") {
-    sentBtn.innerHTML = "Sent";
-    setTimeout(function () {
-      sentBtn.innerHTML = "SEND";
-    }, 2000);
-  } else {
-    sentBtn.innerHTML = "Please write a message";
-    sentBtn.style.width = "40%";
-    sentBtn.style.letterSpacing = "0px";
-    setTimeout(function () {
-      sentBtn.innerHTML = "SEND";
-      sentBtn.style.width = "";
-    }, 2500);
-  }
+  sentBtn.innerHTML = "SENT";
+  setTimeout(function () {
+    sentBtn.innerHTML = "SEND";
+  }, 2000);
 });
